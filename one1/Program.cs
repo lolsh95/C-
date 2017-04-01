@@ -10,9 +10,19 @@ namespace one1
     {
         static void Main(string[] args)
         {
-            Console.Write("WElcome");
+            float maxfl = float.MaxValue;
+            float minfl = float.MinValue;
+            Console.Write("The max {0} , The min {1}\n", maxfl, minfl);
+
+            float f = 1f / 3;
+
+            double d = 1d / 3;
+
+            decimal c = 1M / 3;
+
+            Console.WriteLine("\nFloat = {0} \nDouble = {1} \nDecimal = {2} ", f, d, c);
             Console.ReadKey();
-            //Test The First Prog...
+
         }
     }
 }
